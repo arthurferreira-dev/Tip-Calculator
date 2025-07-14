@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+:root {
+    --arial: Arial, Helvetica, Verdana, sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-size: 1em;
+    font-family: var(--arial);
+}
+
+input[type=range]#porcentagem, input[type=number]#money {
+    padding: 2px;
+}
+
+input[type=number]#money {
+    width: 300px;
+    text-align: center;
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 10px;
+}
+
+main {
+    display: block;
+    position: absolute;
+    top: 30%;
+    left: 41%;
+    margin: auto;
+    text-align: center;
+}
+
+article {
+    line-height: 2em;
+    background-color: #7cd36a;
+    padding: 12px;
+}
+
+label {
+    background-color: #93f87f;
+    padding: 4.5px;
+}

@@ -1,0 +1,9 @@
+@media screen and (min-width: 360px) and (max-width: 480px) {
+    main {
+        left: 33px;
+    }
+
+    label#lb {
+        width: 20%;
+    }
+}
