@@ -16,8 +16,15 @@
             <input type="number" min="0" id="money">
             <br>
             <label for="porcentagem" id="lb">Coloque a porcentagem de aumento (<span id="porcem">%</span>)</label> <br>
-            <input type="range" id="porcentagem" step="1">
+            <input type="range" id="porcentagem" step="1" oninput="Rename()">
+            <br>
+            <button onclick="Enviar()">
+                Enviar
+            </button>
+            <br>
+            <p id="res"></p>
         </article>
     </main>
 </body>
+<script src="js/script.js"></script>
 </html>

@@ -36,8 +36,7 @@ main {
     display: block;
     position: absolute;
     top: 30%;
-    left: 41%;
-    margin: auto;
+    left: 40.5%;
     text-align: center;
 }
 
@@ -45,9 +44,24 @@ article {
     line-height: 2em;
     background-color: #7cd36a;
     padding: 12px;
+    width: 400px;
 }
 
 label {
     background-color: #93f87f;
     padding: 4.5px;
+}
+
+button {
+    display: block;
+    margin: auto;
+    border: none;
+    padding: 5px;
+    font-size: 1.09em;
+    border-radius: 10px;
+    transition-duration: .40s;
+}
+
+p#res {
+    display: none;
 }
